@@ -4,7 +4,8 @@
     margin: 0px;
 }
 
-body{font-family: 'Raleway', sans-serif;}
+body{font-family: 'Raleway', sans-serif;
+}
 img{max-width: 100%;}
 .container{overflow: hidden;width: 95%;margin: 0px auto;/* margin-left: 74px; */margin: auto;}
 
@@ -234,4 +235,141 @@ img{max-width: 100%;}
     font-size: 25px;
 }
 
+@media only screen and (max-width: 1920px){
+.bannercontent {
+    height:838px;
+}
 
+.col-3 img {
+    height: 425px;
+}
+.comtactinfo {
+    height: 819px;
+}
+
+.comtactinfo ul {
+    padding-top: 18px;
+}
+      
+}
+
+@media only screen and (max-width: 1496px){
+    .bannercontent h1 {
+    margin: auto;
+    margin-left: 213px;
+    color: white;
+    font-size: 80px;
+}
+
+.bannercontent h3 {
+    padding: 0px;
+    margin-top: 124px;
+    color: #f7dc4f;
+    margin-left: 213px;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.bannercontent {
+    height: 653px;
+}
+
+.comtactinfo ul {
+    padding-top: 0px;
+}
+
+.comtactinfo {
+    height: 638px;
+}
+
+.col-3 img {
+    height: 325px;
+}
+
+.footer p {
+    color: #f7dc4f;
+    font-size: 14px;
+}
+
+
+}
+
+@media only screen and (max-width: 1600px){
+.bannercontent {
+    height: 699px;
+}
+}
+
+@media only screen and (max-width: 1680px){
+.col-3 img {
+    height: 368px;
+}
+}
+
+
+
+@media only screen and (max-width: 1440px){
+.bannercontent {
+    height: 629px;
+}    
+}
+
+@media only screen and (max-width: 1366px){
+.comtactinfo {
+    height: 620px;
+}  
+.col-3 img {
+    height: 294px;
+}
+
+}
+@media only screen and (max-width: 1360px){
+ .col-3 img {
+    height: 294px;
+}
+}
+
+@media only screen and (max-width: 1280px){
+.bannercontent {
+    height: 558px;
+}
+
+
+.comtactinfo h1 {
+    padding-left: 130px;
+    padding-top: 14px;
+    color: #f7dc4f;
+    font-size: 45px;
+}
+
+.comtactinfo h3 {
+    padding-left: 130px;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.comtactinfo h4 {
+    color: white;
+    padding-left: 130px;
+    
+}
+.comtactinfo p {
+    padding-left: 130px;
+}
+
+.comtactinfo ul {
+    padding-left: 104px;
+}
+
+}
+
+@media only screen and (max-width: 1360px){
+ .col-3 img {
+    height: 294px;
+}
+}
+
+@media only screen and (max-width: 375px){
+    
+}
