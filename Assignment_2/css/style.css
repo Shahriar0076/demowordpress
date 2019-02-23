@@ -159,6 +159,14 @@ img{max-width: 100%;}
     width: 33.3%;
 }
 
+.image1{}
+.image2{}
+.image3{}
+.image4{}
+.image5{}
+.image6{}
+
+
 
 .contact{}
 .contactc{}
@@ -236,141 +244,182 @@ img{max-width: 100%;}
     font-size: 25px;
 }
 
+.image1{}
+.image2{}
+.image3{}
+.image4{}
+.image5{}
+.image6{}
+
+
+/* ......................Responsive site...................... */ 
+
 @media only screen and (max-width: 1920px){
 .bannercontent {
-    height:838px;
+     height: 838px;
 }
 
-.col-3 img {
-    height: 425px;
-}
 .comtactinfo {
-    height: 819px;
+    height: 817px;
 }
 
-.comtactinfo ul {
-    padding-top: 18px;
-}
-      
+.aboutcontent a {
+     margin-left: 41%;
 }
 
-@media only screen and (max-width: 1496px){
-    .bannercontent h1 {
-    margin: auto;
-    margin-left: 213px;
-    color: white;
-    font-size: 80px;
 }
 
-.bannercontent h3 {
-    padding: 0px;
-    margin-top: 124px;
-    color: #f7dc4f;
-    margin-left: 213px;
-    font-size: 42px;
-    font-weight: 200;
-}
 
+
+@media only screen and (max-width: 1680px){
 .bannercontent {
-    height: 653px;
-}
-
-.comtactinfo ul {
-    padding-top: 0px;
+    height: 733px;
 }
 
 .comtactinfo {
-    height: 638px;
+    height: 719px;
 }
 
-.col-3 img {
-    height: 325px;
+.aboutcontent a {
+    margin-left: 41%;
 }
 
-.footer p {
-    color: #f7dc4f;
-    font-size: 14px;
 }
 
-
-}
 
 @media only screen and (max-width: 1600px){
 .bannercontent {
-    height: 699px;
-}
-}
-
-@media only screen and (max-width: 1680px){
-.col-3 img {
-    height: 368px;
-}
+    height: 699px
 }
 
+.comtactinfo {
+    height: 684px;
+}
 
+.aboutcontent a {
+    margin-left: 41%;
+}
+
+}
 
 @media only screen and (max-width: 1440px){
 .bannercontent {
-    height: 629px;
-}    
+    height: 629px
+}
+
+.comtactinfo {
+    height: 614px;
+}
+
+.comtactinfo h1 {
+    font-size: 54px;
+}
+
+.bannercontent h1 {
+    font-size: 71px;
+}
+
+.bannercontent h3 {
+    font-size: 38px;
+    
+}
+
 }
 
 @media only screen and (max-width: 1366px){
-.comtactinfo {
-    height: 620px;
-}  
-.col-3 img {
-    height: 294px;
+.bannercontent {
+    height: 596px
 }
 
+.comtactinfo {
+    height: 584px;
 }
-@media only screen and (max-width: 1360px){
- .col-3 img {
-    height: 294px;
-}
+
 }
 
 @media only screen and (max-width: 1280px){
 .bannercontent {
-    height: 558px;
+    height: 558px
 }
 
+.comtactinfo {
+    height: 548px;
+}
 
 .comtactinfo h1 {
-    padding-left: 130px;
-    padding-top: 14px;
-    color: #f7dc4f;
-    font-size: 45px;
+    padding-left: 145px;
+    font-size: 42px;
 }
 
 .comtactinfo h3 {
-    padding-left: 130px;
-    color: white;
-    font-size: 25px;
-    padding-top: 10px;
+    padding-left: 145px;
+    
+    font-size: 24px;
+    
 }
 
 .comtactinfo h4 {
     color: white;
-    padding-left: 130px;
-    
+    padding-left: 145px;
+    font-size: 18px;
+    padding-top: 17px;
 }
+
 .comtactinfo p {
-    padding-left: 130px;
-}
+    padding-left: 145px; }
 
 .comtactinfo ul {
-    padding-left: 104px;
-}
+    padding-left: 121px;}
 
-}
-
-@media only screen and (max-width: 1360px){
- .col-3 img {
-    height: 294px;
-}
-}
-
-@media only screen and (max-width: 375px){
+.bannercontent h3 {
     
+    margin-top: 93px;
+    
+    margin-left: 108px;}
+
+.bannercontent h1 {
+    margin: auto;
+    margin-left: 106px;
+    color: white;
+    font-size: 48px;
+    padding-top: 20px
+}
+
+.bannercontent p {
+    margin-left: 106px;padding-top: 10px}
+
+}
+
+@media only screen and (max-width: 1024px){
+.bannercontent {
+    height: 447px
+}
+
+.comtactinfo {
+    height: 563px;
+}
+
+.contactimage img {height: 562px;}
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+.bannercontent {
+    height: 336px
+}
+
+.bannercontent h3 {
+    margin-top: 72px;
+    font-size: 21px;
+        margin-left: 60px;
+}
+
+.bannercontent h1 {
+    font-size: 38px;
+    margin-left: 60px;}
+
+.bannercontent p {margin-left: 60px;}
+
 }
