@@ -250,13 +250,51 @@ color:  #00bb9b;
     background-color: #f1f5f7;
     padding: 75px 0 120px 0;
 }
+.imgandoverlay{
+    position: relative;
+}
+
 .card{}
+.card a{
+    color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-size: 30px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.imgandoverlay:hover a{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+.card a i{
+    font-size: 30px
+}
 .card img{}
 .card-body{}
 .card-body h5{
     text-align: center;
     color: #73879c;
     font-size: 20px;
+}
+.overlay{
+    /* display: block; */
+    position: absolute;
+    background-color: #00bb9b00;
+    /* top: 0; */
+    /* left: 0; */
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+.imgandoverlay:hover .overlay{
+    background-color: #00bb9bb0;
 }
 .card-body p{
     text-align: center;
@@ -325,11 +363,36 @@ padding: 10px 0;
 }
 
 .footer1{
-    padding-bottom: 8px;
+    padding-bottom: 8px !important;
 }
 .footer2{}
 .footer3{}
 .footer4{}
+
+
+.imgandoverlay a{
+    color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-size: 15px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.imgandoverlay:hover a{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+
 
 .subfooter h6{
     color: #a3b1bf;
@@ -344,6 +407,8 @@ padding: 10px 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 46%;
+    padding: 0 0px;
+    padding-right: 6px;
 }
 
 .form-control {
