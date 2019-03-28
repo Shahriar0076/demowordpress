@@ -1,0 +1,270 @@
+@media only screen and (max-width: 1199px) {
+.navbar-brand img {
+    padding-right: 15px;}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+.carousel-caption h1 {
+    font-size: 50px;
+    
+}
+
+.carousel-caption p {
+	font-size: 15px;
+}
+
+.content h1 {
+    font-size: 30px;}
+.content p {
+    font-size: 17px;}
+
+.content {
+    padding-bottom: 55px;
+}
+
+.info {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.logondcontent h1 {
+    font-size: 20px;}
+
+.logondcontent p {
+    font-size: 14px;}
+.logondcontent i {
+    font-size: 35px;}
+
+.card-body h5 {
+    font-size: 18px;
+}
+
+.input-group {
+    width: 225px;}
+
+.latestworks .imgandoverlay img {
+    width: 100px;
+}
+
+.latestworks .imgandoverlay {
+    width: 100px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+.headersection1,.headersection2{
+	max-width: 50%;
+}
+
+.dropdown a i {
+    display: none;
+}
+
+.contactbutton {
+    font-size: 15px;
+    padding: 5px 45px;}
+.logondcontent {
+    padding: 0px;}
+
+.logondcontent i {
+    font-size: 35px;}
+
+.card-body h5 {
+    font-size: 15px;
+}
+
+.card-body p {
+    font-size: 12px;
+    
+}
+
+.whoweare {
+    margin-bottom: 60px;
+    padding-right: 50px;
+}
+
+
+
+.subfooter .col-6 {
+    max-width: 36%;
+
+}
+
+.latestworks .imgandoverlay img {
+    width: 124px;
+}
+
+.latestworks .imgandoverlay {
+    width: 124px;
+}
+
+.boxgap {
+    margin-right: 12px;
+}
+
+.addressandcontact {
+    padding-right: 50px;
+}
+
+.freeupdates {
+    padding-right: 50px;
+}
+
+.input-group {
+    width: 276px;
+}
+
+.footercontent p {
+    margin: 0;
+    font-size: 12px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.headersection1{
+	max-width: 60%;
+}
+
+.headersection2{
+	max-width: 40%;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+}
+
+.logondcontent .col-9 {
+	padding-right: 0px;
+}
+.subfooter .col-6 {
+    max-width: 24%;
+}
+
+.boxgap {
+    margin-right: 12px;
+}
+
+
+
+.works .container {
+    max-width: 680px;
+}
+
+.addressandcontact {
+    margin: 35px 0px;
+}
+
+.footer .row{text-align: center;}
+
+.hideflow{
+	overflow: hidden;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+
+.headersection1,.headersection2{
+	max-width: 100%;
+	text-align: center;
+}
+.headersection1{margin-bottom: 10px}
+
+.carousel-caption p {
+    display: none;
+}
+.carousel-caption h1 {
+	font-size: 32px; 
+    margin-bottom: 35px;
+}
+
+.logondcontent {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logondcontent i {
+    margin-bottom: 15px;
+}
+
+.logondcontent h1 {
+    margin-bottom: 15px;
+}
+
+.logondcontent p {
+    max-width: 380px;
+    margin: 0 auto;
+}
+.info {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.content h1 {
+    font-size: 20px;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.logondcontent p {
+    padding: 0 20px;
+}
+
+.carousel-caption h1 {
+    font-size: 25px;}
+
+.works {
+    background-color: #f1f5f7;
+    padding: 40px 0 120px 0;
+}
+
+.subfooter .col-6 {
+    width: 135px;
+}
+
+.latestworks .imgandoverlay img {
+    width: 100%;
+}
+
+.boxgap {
+    margin-right: 12%;
+    margin-bottom: 0;
+}
+
+
+
+
+
+.footer .row{text-align: center;}
+.footer .nav{text-align: center;}
+
+}
+
+
+@media only screen and (max-width: 355px) {
+
+.carousel-caption h1 {
+    font-size: 21px;
+}
+
+.boxgap {
+    margin-right: 18%;
+}
+
+
+
+}
