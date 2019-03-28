@@ -225,6 +225,11 @@ body{font-family: 'Source Sans Pro', sans-serif;}
     line-height: 2.5;
     font-weight: 100;
 }
+
+.hideflow{
+    overflow: hidden;
+}
+
 .logondcontent{}
 .logondcontent .col-10{}
 .logondcontent i{
