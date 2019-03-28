@@ -250,8 +250,9 @@ color:  #00bb9b;
     background-color: #f1f5f7;
     padding: 75px 0 120px 0;
 }
-.imgandoverlay{
+.cardimgandoverlay{
     position: relative;
+    
 }
 
 .card{}
@@ -265,7 +266,7 @@ color:  #00bb9b;
     opacity: 0;
     transition: all 0.4s;
 }
-.imgandoverlay:hover a{
+.cardimgandoverlay:hover a{
     color: #ffffff;
     position: absolute;
     top: 50%;
@@ -283,7 +284,7 @@ color:  #00bb9b;
     color: #73879c;
     font-size: 20px;
 }
-.overlay{
+.cardoverlay{
     /* display: block; */
     position: absolute;
     background-color: #00bb9b00;
@@ -293,7 +294,7 @@ color:  #00bb9b;
     width: 100%;
     transition: all 0.4s;
 }
-.imgandoverlay:hover .overlay{
+.cardimgandoverlay:hover .cardoverlay{
     background-color: #00bb9bb0;
 }
 .card-body p{
@@ -345,32 +346,49 @@ padding: 10px 0;
     letter-spacing: 1.9px;
 }
 
-.more{}
-.more a{
+.whoweare{}
+.whoweare a{
     color: #a3b1bf;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1.9px;
 }
-.more a i{
+.whoweare a i{
     transition: all 0.4s;
 }
-.more a:hover{
+.whoweare a:hover{
     text-decoration: none;
 }
-.more a:hover i{
+.whoweare a:hover i{
     transform: translateX(10px);
 }
 
-.footer1{
-    padding-bottom: 8px !important;
+
+
+.addressandcontact{}
+.freeupdates{}
+
+.latestworks{}
+.latestworks .imgandoverlay{
+    position: relative;
+    width: 124px;
 }
-.footer2{}
-.footer3{}
-.footer4{}
+.latestworks .imgandoverlay .overlay{
+    position: absolute;
+    background-color: #00bb9b00;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+}
 
-
-.imgandoverlay a{
+.latestworks .imgandoverlay:hover .overlay{
+    position: absolute;
+    background-color: #00bb9bb0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+.latestworks .imgandoverlay a{
     color: #ffffff;
     position: absolute;
     top: 60%;
@@ -380,8 +398,7 @@ padding: 10px 0;
     opacity: 0;
     transition: all 0.4s;
 }
-
-.imgandoverlay:hover a{
+.latestworks .imgandoverlay:hover a{
     color: #ffffff;
     position: absolute;
     top: 50%;
@@ -389,8 +406,21 @@ padding: 10px 0;
     transform: translate(-50%,-50%);
     font-size: 15px;
     opacity: 1;
-    transition: all 0.4s;
 }
+
+.boxgap{}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -403,13 +433,7 @@ padding: 10px 0;
     margin-right: 9px;
 }
 
-.subfooter .col-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 46%;
-    padding: 0 0px;
-    padding-right: 6px;
-}
+
 
 .form-control {
     color: #ffffff;
